@@ -162,7 +162,7 @@ def plot_correlations(videos):
 
 
 def views_ml(videos):
-  '''
+    '''
     This function takes in the trending videos dataset and creates a machine
     learning model taking category, country, tag number, title length, and
     duration seconds as features and predicts the view.
@@ -217,7 +217,7 @@ def plot_views_country(videos):
 
 
 def plot_duration_country(videos):
-      '''
+    '''
     This function takes in the trending videos dataset and plots a bar chart
     of the average duration seconds of each country.
     '''
@@ -229,9 +229,9 @@ def plot_duration_country(videos):
 
 
 def main():
-  '''
-  Creates the various visualizations and runs the machine learning model.
-  '''
+    '''
+    Creates the various visualizations and runs the machine learning model.
+    '''
     # python proj.py
     videos = pd.read_csv(VIDEOS)
     categories = pd.read_csv(CATEGORIES)
